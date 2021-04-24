@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray">
+
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/layout_toolbar_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+        android:id="@+id/rvNews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_below="@id/toolbar"
+        android:background="@android:color/transparent"
+        android:padding="@dimen/_4sdp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:shimmer_demo_angle="20"
+        app:shimmer_demo_child_count="8"
+        app:shimmer_demo_grid_child_count="1"
+        app:shimmer_demo_layout="@layout/shimmer_news_item"
+        app:shimmer_demo_layout_manager_type="linear_vertical"
+        tools:listitem="@layout/news_item" />
+
+
+</RelativeLayout>

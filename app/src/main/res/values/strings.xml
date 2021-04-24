@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NEWS</string>
+    <string name="explore">Explore</string>
+    <string name="live_chat">Live Chat</string>
+    <string name="gallery">Gallery</string>
+    <string name="wish_list">Wish List</string>
+    <string name="e_magazine">E-Magazine</string>
+
+
+    //-------------------------Interent status---------------------------------------------------
+    <string name="no_interent">No Internet</string>
+    <string name="plz_turn_on">Please turn on</string>
+    <string name="wifi">Wifi</string>
+    <string name="mobile_data">Mobile data</string>
+    <string name="you_turened_on_airplan_mode">You have turned on the airplane mode.</string>
+    <string name="plz_turn_off">Please turn off</string>
+    <string name="airplane_mode">Airplane mode</string>
+    <string name="check_your_interent_connection_and_try_again">Check your Internet connection and try again.</string>
+    <string name="alert">Alert</string>
+    <string name="link_development">Link Development</string>
+    <string name="search">Search</string>
+    <string name="open_website">Open Website</string>
+
+</resources>
